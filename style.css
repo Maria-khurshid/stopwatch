@@ -1,0 +1,54 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    background-image: url(images/stopwatch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(161deg, #8712a9e6, #480619c9, #101010); */
+}
+
+main {
+    text-align: center;
+}
+
+.watch {
+    font-size: 4em;
+    color: white;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 33px;
+    font-size: 22px;
+    background: linear-gradient(45deg, #b34949, transparent);
+    color: white;
+    border: none;
+}
+
+.timer {
+    position: absolute;
+    color: white;
+    background: linear-gradient(45deg, #b34949, transparent);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 25px;
+    border: 2px solid black;
+    box-shadow: 0 0 5px 3px #999;
+}
+
+.timerDetail {
+    font-size: 40px;
+}
+
+.timerId {
+    margin-top: 300px;
+}
+
+.timerCounter {
+    padding: 3px 91px;
+}

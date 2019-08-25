@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Stop Watch HW</title>
+</head>
+
+<body>
+    <main>
+        <div class="circle">
+            <div class="watch">
+                0:00 <sub>00</sub>
+            </div>
+        </div>
+        <div class="btn">
+            <button onclick="start()" id="startStopSys">Start</button>
+            <button onclick="stop()" id="startStopSys">Stop</button>
+            <button onclick="resetWatch()">Reset</button>
+        </div>
+
+
+
+        <table class="timer" cellpadding="20px">
+            <tr class="timerDetail">
+                <td id="hrs"></td>
+                <td id="mint"></td>
+                <td id="sec"></td>
+            </tr>
+            <tr>
+                <td>Hours</td>
+                <td>Minutes</td>
+                <td>Seconds</td>
+            </tr>
+        </table>
+
+    </main>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
